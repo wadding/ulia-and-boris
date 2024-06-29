@@ -38,3 +38,20 @@ document.addEventListener('DOMContentLoaded', function () {
  // вызываем функцию countdownTimer каждую секунду
  timerId = setInterval(countdownTimer, 1000);
 });
+
+const player = document.getElementById('player-audio');
+
+
+document.getElementById('player-btn').addEventListener('click', function(){
+ if(!this.classList.contains('play-btn__play')) {
+  player.play()
+  this.textContent = "Пауза"
+  this.classList.add('play-btn__play')
+  this.classList.add('player-btn-acticve')
+ } else {
+  player.pause()
+  this.textContent = "Плей"
+  this.classList.remove('play-btn__play')
+  this.classList.remove('player-btn-acticve')
+ }
+})
