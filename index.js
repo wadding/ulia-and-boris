@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 const player = document.getElementById('player-audio');
+player.volume = 0.05;
 const btnPlay = document.getElementById('player-btn');
 
 document.getElementById('player-btn').addEventListener('click', function(){
@@ -62,13 +63,3 @@ player.onended = function() {
  btnPlay.classList.remove('player-btn-acticve')
 }
 
-
-
-JSDialog.showConfirmDialog(
- "Save document before it will be closed?\nIf you press `No` all unsaved changes will be lost.",
- function(result) {
-     фдукае// check result here
- },
- "warning",
- "yes|no|cancel"
-);
