@@ -321,6 +321,7 @@ body {
   background: url('../image/fon3-mob3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 100% 100%;
   z-index: -1;
   opacity: 1;
  }
