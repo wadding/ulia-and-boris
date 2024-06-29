@@ -45,19 +45,19 @@ const btnPlay = document.getElementById('player-btn');
 document.getElementById('player-btn').addEventListener('click', function(){
  if(!this.classList.contains('play-btn__play')) {
   player.play();
-  this.textContent = "Пауза";
+  this.textContent = "⏸︎";
   this.classList.add('play-btn__play');
   this.classList.add('player-btn-acticve');
  } else {
   player.pause()
-  this.textContent = "Плей"
+  this.textContent = "⏵︎"
   this.classList.remove('play-btn__play')
   this.classList.remove('player-btn-acticve')
  }
 })
 // после окончания песни кнопка уходит в дефолт
 player.onended = function() {
- btnPlay.textContent = "Плей"
+ btnPlay.textContent = "⏵︎"
  btnPlay.classList.remove('play-btn__play')
  btnPlay.classList.remove('player-btn-acticve')
 }
