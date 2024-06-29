@@ -67,10 +67,6 @@ body {
  height: 96vh;
 }
 
-.icon {
-}
-
-
 .player-btn {
  background-color: var(--main-color-card);
  border: 1px solid var(--second-color-text);
@@ -80,6 +76,7 @@ body {
  cursor: pointer;
  color: var(--second-color-text);
  font-size: 25px;
+ width: 500px;
 }
 
 .player-btn:hover {
@@ -304,6 +301,10 @@ body {
  .header__inner {
   justify-content: center;
   height: 95vh;
+ }
+
+ .player-btn {
+  width: 100%;
  }
 
  .block {
