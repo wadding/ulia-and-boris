@@ -67,6 +67,13 @@ body {
  height: 96vh;
 }
 
+.icon {
+ display: flex;
+ justify-content: center;
+ padding-top: 5px;
+}
+
+
 .player-btn {
  background-color: var(--main-color-card);
  border: 1px solid var(--second-color-text);
