@@ -70,7 +70,6 @@ body {
 .player-btn {
  background-color: var(--main-color-card);
  border: 1px solid var(--second-color-text);
- width: 60px;
  height: 55px;
  border-radius: 30px;
  cursor: pointer;
