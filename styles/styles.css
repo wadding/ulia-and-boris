@@ -76,7 +76,6 @@ body {
  cursor: pointer;
  color: var(--second-color-text);
  font-size: 25px;
- padding-top: 5px;
 }
 
 .player-btn:hover {
