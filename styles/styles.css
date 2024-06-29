@@ -61,6 +61,26 @@ body {
  gap: 20px;
 }
 
+.player__panel {
+ text-align: center;
+}
+
+.player-btn {
+ background-color: var(--main-color-card);
+ border: 1px solid var(--second-color-text);
+ border-radius: 0%;
+ font-family: "Montserrat Alternates", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+ width: 60px;
+ height: 30px;
+ border-radius: 30px;
+}
+
+.player-btn-acticve {
+ border: 1px solid green;
+}
+
 .block {
  display: flex;
  justify-content: space-around;
