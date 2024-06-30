@@ -317,7 +317,6 @@ body {
  .fixed-background {
   position: fixed;
   width: 100vw;
-  height: 100vh;
   background: url('../image/fon5.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
