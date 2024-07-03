@@ -40,10 +40,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 const player = document.getElementById('player-audio');
-player.volume = 0.05;
+player.volume = 0.5;
 const btnPlay = document.getElementById('player-btn');
 
-document.getElementById('player-btn').addEventListener('click', function(){
+
+document.getElementById('player-btn').addEventListener('click', function() {
  if(!this.classList.contains('play-btn__play')) {
   player.play();
   this.textContent = "⏸︎";
